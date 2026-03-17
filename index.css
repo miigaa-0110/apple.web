@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.header {
+  background-color: aliceblue;
+  width: 1920px;
+  height: 88px;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.long-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SECTION1 {
+  background-image: url("picture/Figure.png");
+  width: 1920px;
+  height: 692px;
+  padding-top: 55px;
+}
+.SECTION2 {
+  background-image: url("picture/Figure\ \(1\).png");
+  width: 1920px;
+  height: 692px;
+}
+.SECTION3 {
+  background-image: url("picture/Figure\ \(2\).png");
+  width: 1920px;
+  height: 692px;
+}
+.picture {
+  justify-content: center;
+  flex-direction: row;
+}
+.sec1-text1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+  gap: 30px;
+}
+.sec1-text2 {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
