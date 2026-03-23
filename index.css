@@ -435,31 +435,73 @@
   position: relative;
   align-items: center;
 }
-.button-s {
-  opacity: 0;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  background-color: rgba(0, 0, 0, o.2);
-}
-.next-button {
-  opacity: 0;
-  border: none;
-  margin-top: 20px;
-  padding: 7px 15px;
-  border-radius: 999px;
-  background-color: white;
-}
 .long-texts {
   padding-left: 30px;
   padding-top: 201px;
+  color: white;
+  font-weight: bold;
 }
 .last-section {
   overflow: scroll;
   scrollbar-width: none;
   scroll-behavior: smooth;
   display: flex;
-  gap: 15px;
   margin-top: 15px;
+}
+.last-pages {
+  width: 100%;
+  display: flex;
+  position: relative;
+  gap: 15px;
+  animation-name: go-page;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes go-page {
+  from {
+    transform: translate(100vw);
+  }
+  to {
+    transform: translate(-4170px);
+    opacity: 1;
+  }
+}
+
+.last-pages:hover .last-item {
+  filter: grayscale(1);
+  animation-play-state: paused;
+}
+.last-pages .last-item:hover {
+  filter: grayscale(0);
+}
+.button-s {
+  inset: 0;
+  opacity: 0;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.next-button {
+  border: none;
+  margin-top: 20px;
+  padding: 7px 15px;
+  border-radius: 999px;
+  background-color: white;
+}
+.last-item:hover .button-s {
+  opacity: 1;
+  transition: all 0.3s ease-in;
+}
+
+.las-item:hover .next-button {
+  opacity: 1;
+  margin-top: 0;
+  transition: all 0.3s ease;
+}
+.small-texts {
+  font-weight: bold;
 }
