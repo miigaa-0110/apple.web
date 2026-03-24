@@ -1,5 +1,44 @@
 @media (max-width: 1024px) {
   .text {
+    height: 48px;
+    justify-content: space-around;
+  }
+  .p-text {
     display: none;
   }
+  .header-icons {
+    column-gap: 0;
+  }
+  .header-icon {
+    width: 13px;
+    height: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .long-text {
+  }
+  .SECTION1 {
+    height: 650px;
+    padding-top: 50px;
+    background-image: url(picture2/2.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+  .SECTION2 {
+    height: 650px;
+    padding-top: 50px;
+    background-image: url(picture2/iphone-16-mobile.png);
+    background-position: center;
+    background-size: cover;
+  }
+  .Pro {
+    font-size: 42px;
+  }
+  .proo {
+    margin-block: 4px 16px;
+  }
 }
+@media (max-wdth: );

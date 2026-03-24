@@ -2,12 +2,14 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
-  font-family: 𝚒𝚗𝚝𝚎𝚛;
 }
 .header {
   background-color: aliceblue;
   width: 100vw;
   height: 88px;
+}
+.menu-icon {
+  display: none;
 }
 .text {
   display: flex;
