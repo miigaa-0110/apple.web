@@ -22,14 +22,14 @@
   }
   .SECTION1 {
     height: 650px;
-    padding-top: 50px;
+    padding-top: 30px;
     background-image: url(picture2/2.jpeg);
     background-position: center;
     background-size: cover;
   }
   .SECTION2 {
     height: 650px;
-    padding-top: 50px;
+    padding-top: 30px;
     background-image: url(picture2/iphone-16-mobile.png);
     background-position: center;
     background-size: cover;
@@ -41,4 +41,8 @@
     margin-block: 4px 16px;
   }
 }
-@media (max-wdth: );
+@media (max-wdth: 768px) {
+  .SECTION4 {
+    grid-auto-rows: 490px;
+  }
+}
