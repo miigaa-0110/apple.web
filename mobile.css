@@ -7,9 +7,6 @@
     display: none;
   }
   .header-icons {
-    column-gap: 0;
-  }
-  .header-icon {
     width: 13px;
     height: 15px;
     display: flex;
@@ -41,8 +38,35 @@
     margin-block: 4px 16px;
   }
 }
-@media (max-wdth: 768px) {
+@media (max-width: 768px) {
   .SECTION4 {
     grid-auto-rows: 490px;
+  }
+  .sec4-pic1 {
+    padding-block: 42px;
+  }
+  .part1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  s .SECTION6-scroll {
+    width: 689px;
+    height: 398px;
+  }
+}
+@media (max-width: 390px) {
+  .header {
+    height: 500px;
+  }
+  .SECTION1 {
+    background-image: url(picture2/iphone-16-pro-mobile.png);
+    justify-content: flex-end;
+  }
+  .SECTION2 {
+    background-image: url(picture2/iphone-16-mobile.png);
+  }
+  .SECTION6-scroll {
+    width: 274px;
+    height: 495px;
   }
 }
