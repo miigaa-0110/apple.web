@@ -53,6 +53,9 @@
     width: 689px;
     height: 398px;
   }
+  sec1-text1 {
+    margin-top: 500px;
+  }
 }
 @media (max-width: 390px) {
   .header {
