@@ -1,6 +1,4 @@
-let fullname = firstname + lastname;
 
-let number1 = 10;
-let number2 = 30;
-
-console.log();
+}
+let naas = 21;
+if(naas >21){
