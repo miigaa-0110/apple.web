@@ -150,13 +150,13 @@ for (let i = 1; i <= 10; i++) {
     console.log(i, "*", j, "=", i * j);
   }
 }
-let star = "*";
-for (let i = 1; i <= 4; i++) {
-  for (let j = 1; j <= 4; j++) {
-    star = star + "*";
+let star = " ";
+for (let i = 1; i <= 5; i++) {
+  for (let j = 1; j <= 5; j++) {
+    star = star + " * ";
   }
   console.log(star);
-  star = "*";
+  star = " ";
 }
 for (let i = 1; i <= 10; i++) {
   console.log("number" + i);
